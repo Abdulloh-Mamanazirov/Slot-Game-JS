@@ -1,6 +1,6 @@
-let num1 = Math.round(Math.random() * 7) + 1;
-let num2 = Math.round(Math.random() * 7) + 1;
-let num3 = Math.round(Math.random() * 7) + 1;
+let num1 = Math.floor(Math.random() * 9) + 1;
+let num2 = Math.floor(Math.random() * 9) + 1;
+let num3 = Math.floor(Math.random() * 9) + 1;
 
 document.write(
   `<span>${num1}</span> <span class="span2">${num2}</span> <span>${num3}</span> <br>`
